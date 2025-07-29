@@ -1,0 +1,28 @@
+// Hello_world.cpp file
+#include <iostream>
+using namespace std;
+int main()
+{
+   //use for print Hello_world
+    cout << "Hello world!!!\n";  // Print "Hello world!!!"
+
+    return 0;
+}
+
+MAKE F
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
+
+void print_hello(); // Function prototype for print_hello
+
+#endif
+ // hello.cpp
+
+#include <iostream>
+#include "function.h"
+using namespace std;
+
+void print_hello()
+{
+   cout << "Hello World" << endl; //print "Hello World"
+}
